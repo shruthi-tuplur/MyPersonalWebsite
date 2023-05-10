@@ -1,0 +1,142 @@
+body {
+    background-color: #360557;
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Trispace', sans-serif;
+    color: #d2b7e5;
+}
+
+#header-main-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.header-item {
+    font-family: 'Trispace', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: larger;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+    padding-top: 20px;
+}
+
+#homepage-button{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 50px;
+    background-color: #360557;
+    color: #d2b7e5;
+    border: none;
+}
+
+#homepage-button:hover{
+    color: rgb(255, 180, 255);
+}
+
+#site-main-intro-header{
+    font-family: 'Braah One', sans-serif;
+    color: #d2b7e5;
+    font-size: 70px;
+}
+
+
+#homepage-main-component{
+    padding-left: 0px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#main-page-header-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+#animation-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#site-main-intro-header-div{
+    width: 40vw;
+    margin-right: 170px;
+}
+
+#resume-button-div{
+    display: flex;
+    width: 30vw;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#resume-button{
+    width: 150px;
+    padding-top: 5px;
+    border-radius: 50px;
+    height: 50px;
+    border: none;
+    font-family: 'Braah One', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(270deg, rgb(3, 28, 246) 0%, rgb(176, 3, 251) 100%);
+    color: #f8efff;
+}
+
+#resume-button:hover{
+    background: linear-gradient(270deg, rgb(176, 3, 251) 0%, rgb(3, 28, 246) 100%);
+}
+
+
+#div-header{
+    font-family: 'Braah One', sans-serif;
+    font-size: 60px;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+#projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#horizontal-line{
+    height: 10px;
+    width: 75px;
+    background: linear-gradient(270deg, rgb(3, 28, 246) 0%, rgb(176, 3, 251) 100%);
+    margin-left: 150px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+#technologies-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#technologies-intro{
+    width: 60vw;
+    margin-left: 150px;
+    
+}
+
+#types-of-tech-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+#tech-types-header{
+    font-family: 'Trispace', sans-serif;
+    font-weight: 700;
+    
+    
+}
