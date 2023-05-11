@@ -1,7 +1,11 @@
 import React from "react";
 import HorizontalLine from "./horizontal-div";
+import AnimationRender from "./animation";
 
 const HomepageMain = (props) => {
+
+    const {boogie, setBoogie} = props; 
+
 return (
     <div id="homepage-main-component">
         <div id='main-page-header-div'>
@@ -9,7 +13,7 @@ return (
                 <h1 id='site-main-intro-header'>Welcome to my personal portfolio.</h1>
             </div>
             <div id='animation-div'> 
-                <p> [animation goes here] </p>
+                <AnimationRender boogie = {boogie} setBoogie = {setBoogie}/>
             </div>
         </div>
         <div id="resume-button-div">

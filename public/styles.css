@@ -19,6 +19,14 @@ body {
     font-size: larger;
 }
 
+#boogie-button {
+background-color: #360557;
+color:#d2b7e5;
+font-family: 'Bungee', cursive;
+border: none;
+
+}
+
 #nav-bar {
     display: flex;
     flex-direction: row;
