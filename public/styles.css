@@ -2,30 +2,54 @@ body {
     background-color: #360557;
     height: 100vh;
     margin: 0px;
-    font-family: 'Trispace', sans-serif;
+    font-family: 'Space Mono', monospace;
     color: #d2b7e5;
+    display: flex;
+    flex-direction: column;
 }
 
 #header-main-div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 30px;
+   background-color: #FEB620;
 }
 
 .header-item {
-    font-family: 'Trispace', sans-serif;
-    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Space Mono', monospace;
+    color: #360557;
     font-size: larger;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
 }
 
 #boogie-button {
-background-color: #360557;
-color:#d2b7e5;
-font-family: 'Bungee', cursive;
+background-color: #FEB620;
+color:#360557;
+font-family: 'Space Mono', monospace;
 border: none;
 
 }
+
+.header-item:hover {
+   
+    font-family: 'Bungee', cursive;
+    margin-left: 12px;
+    margin-right: 12px
+    
+}
+
+#boogie-button:hover {
+   
+    font-family: 'Bungee', cursive;
+    margin-left: 25px;
+}
+
+
 
 #nav-bar {
     display: flex;
@@ -38,18 +62,18 @@ border: none;
 #homepage-button{
     font-family: 'Darumadrop One', cursive;
     font-size: 50px;
-    background-color: #360557;
-    color: #d2b7e5;
+    background-color: #FEB620;
+    color: #360557;
     border: none;
 }
 
 #homepage-button:hover{
-    color: rgb(255, 180, 255);
+    color: blue;
 }
 
 #site-main-intro-header{
-    font-family: 'Braah One', sans-serif;
-    color: #d2b7e5;
+    font-family: 'Darumadrop One', sans-serif;
+    color: #FEB620;
     font-size: 70px;
 }
 
@@ -59,7 +83,7 @@ border: none;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    
 }
 
 #main-page-header-div {
@@ -83,7 +107,7 @@ border: none;
     display: flex;
     width: 30vw;
     justify-content: center;
-    padding-top: 20px;
+    
 }
 
 #resume-button{
@@ -92,22 +116,32 @@ border: none;
     border-radius: 50px;
     height: 50px;
     border: none;
-    font-family: 'Braah One', sans-serif;
+    font-family: 'Space Mono', monospace;
     font-size: 20px;
-    background: linear-gradient(270deg, rgb(3, 28, 246) 0%, rgb(176, 3, 251) 100%);
-    color: #f8efff;
+    /* background: linear-gradient(270deg, rgb(3, 28, 246) 0%, rgb(176, 3, 251) 100%); */
+    background-color: #FEB620;
+    color:#360557;
 }
 
 #resume-button:hover{
-    background: linear-gradient(270deg, rgb(176, 3, 251) 0%, rgb(3, 28, 246) 100%);
+   /* background: linear-gradient(270deg, rgb(176, 3, 251) 0%, rgb(3, 28, 246) 100%); */
+   background-color: blue;
+   color: orange;
 }
 
 
-#div-header{
-    font-family: 'Braah One', sans-serif;
+.div-header{
+    font-family: 'Darumadrop One', sans-serif;
+    color:  rgb(7, 190, 245);
     font-size: 60px;
     margin-left: 140px;
-    margin-top: 40px;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+#projects-header {
+    color:rgb(7, 190, 245)
 }
 
 #projects{
@@ -119,32 +153,156 @@ border: none;
 #horizontal-line{
     height: 10px;
     width: 75px;
-    background: linear-gradient(270deg, rgb(3, 28, 246) 0%, rgb(176, 3, 251) 100%);
-    margin-left: 150px;
+    background:#FEB620;
+    justify-content: center;
     border-radius: 50px;
-    margin-top: 100px;
+    margin-top: 150px;
+}
+
+#horizontal-line-div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 #technologies-div{
     display: flex;
     flex-direction: column;
+    
+    height: 100vh;
 }
 
 #technologies-intro{
     width: 60vw;
     margin-left: 150px;
+    margin-top: 0px;
     
 }
 
 #types-of-tech-div {
     display: flex;
     flex-direction: row;
-    margin-left: 150px;
+    justify-content: space-around;
+    
 }
 
 #tech-types-header{
-    font-family: 'Trispace', sans-serif;
+    font-family: 'Space Mono', monospace;
     font-weight: 700;
     
+    width: 100px;
+    padding-left: 5px;
+}
+
+
+
+#about-me{
     
+    height: 100vh;
+}
+
+
+#about-me-section {
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+#about-me-first-line{
+    background-color: #FEB620;
+    color:#360557;
+    padding-left: 5px;
+    width: 850px;
+}
+
+#project-div{
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    
+}
+
+#footer-div{
+    height: 150px;
+    width: 100vw;
+    margin-top: 0px;
+    background-color:#FEB620;
+}
+
+#project-row-1{
+    display: flex;
+    justify-content: space-around;
+}
+.project-card{
+    height: 800px;
+    width: 500px;
+    background-color:  rgb(196, 159, 247);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+#snake-image{
+    height: auto;
+    width: 500px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.project-title{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color:#360557;
+    font-size:x-large;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.project-blurb{
+
+    color:#360557;
+    text-align: center;
+}
+
+#project-blurb-div{
+    width: 460px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#project-tech-used{
+    display: flex;
+    color:#360557;
+    justify-content: space-evenly;
+    width: 460px;
+    
+}
+
+.tech-used-item{
+    background-color: rgb(7, 190, 245);
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+#project-button-div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 460px;
+}
+
+.project-button{
+    margin-top: 10px;
+    background-color:#360557;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    color: rgb(7, 190, 245);
+    font-family: 'Darumadrop One', cursive;
+    font-size: large;
+}
+
+.project-button:hover{
+    background-color: rgb(7, 190, 245);
+    color:#360557;
 }

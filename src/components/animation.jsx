@@ -1,8 +1,13 @@
 import React, {useState} from 'react';
+import AudioPlayer from './audioplayer';
+
 
 const AnimationRender = (props) => {
 
     const {boogie, setBoogie} = props;
+    
+    // <AudioPlayer onDonePlaying={() => setBoogie(false)} />
+
     
     if(!boogie){
     return (
@@ -11,7 +16,10 @@ const AnimationRender = (props) => {
     )
     } else {
         return (
-            <img src='/images/boogie_astronaut.gif' /> 
+            <div>
+                <img src='/images/boogie_astronaut.gif' /> 
+                
+            </div>
     
         )
 

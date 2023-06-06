@@ -2,8 +2,9 @@ import React from "react";
 
 const HorizontalLine = () => {
     return(
-        <div>
-        <div id='horizontal-line'></div>
+        <div id='horizontal-line-div'>
+            <div id='horizontal-line'>
+            </div>
         </div>
     )
 }
