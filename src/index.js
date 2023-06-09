@@ -7,6 +7,8 @@ import HomepageMain from './components/homepage-main';
 import Footer from './components/footer';
 import useElementOnScreen from './components/intersectionobserver';
 
+
+
 const Main = () => {
 
     const [boogie, setBoogie] = useState(false);

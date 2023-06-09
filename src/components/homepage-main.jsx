@@ -31,7 +31,7 @@ const HomepageMain = (props) => {
             </div>
         </div>
         <div id="resume-button-div-bus">
-            <button id="resume-button-bus">Resume</button>
+            <button id="resume-button-bus">Resume → </button>
         </div>
         <HorizontalLine businessMode={businessMode} setBusinessMode={setBusinessMode}/>
         <a id='projects-bus' ref={containerRef}>
@@ -61,18 +61,18 @@ return (
             <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
             <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
           </svg>
-          <span>CLICK FOR BUSINESS MODE</span></button>
+          <span>click for business mode.</span></button>
         </div>
         <div id='main-page-header-div'>
             <div id="site-main-intro-header-div">
-                <h1 id='site-main-intro-header'>Welcome to my personal portfolio.</h1>
+                <h1 id='site-main-intro-header'>welcome to my personal portfolio.</h1>
             </div>
             <div id='animation-div'> 
                 <AnimationRender boogie = {boogie} setBoogie = {setBoogie} />
             </div>
         </div>
         <div id="resume-button-div">
-            <button id="resume-button">Resume</button>
+            <button id="resume-button">check out my resume → </button>
         </div>
         
         <a id='projects'>

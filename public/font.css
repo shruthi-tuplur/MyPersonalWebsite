@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'SF UI Text Regular';
+    src: local('SFUIText-Regular'),
+         url('../src/fonts/SFUIText-Regular.ttf') format('truetype');
+    font-weight: normal;     
+}

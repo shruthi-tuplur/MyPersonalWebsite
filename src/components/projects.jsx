@@ -57,9 +57,9 @@ const Projects = (props) => {
     <div id='project-div'>
         <h1 className='div-header' id='projects-header'>Projects</h1>
         <div id="projects">
-            <div id='project-row-1'>
             <div className="project-card">
                 <img id="snake-image" src="/images/snake-game-image.png"/>
+                <div id='project-info-div'>
                 <p className='project-title'>Snake</p>
                 <div id='project-blurb-div'>
                     <p className="project-blurb">I used basic HTML, CSS, and JavaScript DOM Manipulation to build a fully functioning Snake game. The game features multiple fun nostalgic color themes, 
@@ -75,9 +75,11 @@ const Projects = (props) => {
                    <form><button className="project-button" formAction="https://github.com/shruthi-tuplur/snake">Code</button></form> 
                    <form><button className="project-button" formAction="https://legendary-entremet-10b36b.netlify.app/">Source</button></form> 
                 </div>
+                </div>
             </div>
             <div className="project-card">
             <img id="strangers-things-image" src="/images/strangers-things.png"/>
+            <div id='project-info-div'>
                 <p className='project-title'>E-Commerce Craigslist Clone</p>
                 <div id='project-blurb-div'>
                     <p className="project-blurb">This project utilizes HTML, CSS, JavaScript, ReactJS, and RESTful APIs. This site boasts a simple, clean UI, and it allows users to register, login, 
@@ -92,12 +94,13 @@ const Projects = (props) => {
                 </div>
 
                 <div id='project-button-div-strangers'>
-                   <form><button className="project-button" formAction="https://github.com/shruthi-tuplur/Stranger-s_Things">Code</button></form> 
-                   <form><button className="project-button" formAction="https://admirable-cheesecake-aa69e4.netlify.app/">Source</button></form> 
+                   <form><button className="project-button" id='stranger-button' formAction="https://github.com/shruthi-tuplur/Stranger-s_Things">Code</button></form> 
+                   <form><button className="project-button" id='stranger-button' formAction="https://admirable-cheesecake-aa69e4.netlify.app/">Source</button></form> 
+                </div>
                 </div>
             </div>
 
-            </div>
+            
         </div>
     </div> )
     }
