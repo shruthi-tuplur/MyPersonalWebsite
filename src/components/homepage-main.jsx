@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { BrowserRouter, Route, Switch} from 'react-router-dom'
 import HorizontalLine from "./horizontal-div";
 import AnimationRender from "./animation";
@@ -7,12 +7,13 @@ import Projects from "./projects";
 import Technologies from './technologies';
 import About from './about';
 
+
 const HomepageMain = (props) => {
 
     const {boogie, setBoogie, businessMode, setBusinessMode, containerRef} = props; 
 
+   
 
-    
     if(businessMode){
         return(
             <div id="homepage-main-component-bus">
@@ -57,9 +58,9 @@ return (
         <div id='business-toggle-div'>
             <button className="btn" id='business-mode-toggle' onClick={(event) => {
                 setBusinessMode(true);
-            }}><svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            }}><svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
+            <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
+            <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
           </svg>
           <span>click for business mode.</span></button>
         </div>

@@ -60,7 +60,7 @@ const Projects = (props) => {
             <div className="project-card">
                 <img id="snake-image" src="/images/snake-game-image.png"/>
                 <div id='project-info-div'>
-                <p className='project-title'>Snake</p>
+                <p className='project-title'>snake.</p>
                 <div id='project-blurb-div'>
                     <p className="project-blurb">I used basic HTML, CSS, and JavaScript DOM Manipulation to build a fully functioning Snake game. The game features multiple fun nostalgic color themes, 
                     including a throwback to the 90s classic Jazz pattern known for their appearance on Solo cups and the forever loved Pacman arcade game with its beloved lemon-yellow protagonist. 
@@ -80,7 +80,7 @@ const Projects = (props) => {
             <div className="project-card">
             <img id="strangers-things-image" src="/images/strangers-things.png"/>
             <div id='project-info-div'>
-                <p className='project-title'>E-Commerce Craigslist Clone</p>
+                <p className='project-title'>e-commerce craigslist clone.</p>
                 <div id='project-blurb-div'>
                     <p className="project-blurb">This project utilizes HTML, CSS, JavaScript, ReactJS, and RESTful APIs. This site boasts a simple, clean UI, and it allows users to register, login, 
                     post listings, browse listings created by other users, and view their own profile. </p>
