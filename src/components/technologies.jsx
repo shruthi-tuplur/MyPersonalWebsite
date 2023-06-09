@@ -42,12 +42,21 @@ const Technologies = (props) => {
             <p id='technologies-intro'> I enjoy working with a range of technologies that help me create aesthetically pleasing web applications with intuitive UI. </p>
             <div id='types-of-tech-div'>
                 <div id='front-end' className="tech-lists">
-                    <p id='tech-types-header'>FRONT END</p>
-                        <p>React.js</p>
-                        <p>JavaScript</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>TypeScript</p>
+                    
+                    <span id='tech-types-header'>I use front end tools such as [ </span>
+                    <div class="scrolling-words-container">
+                    <div class="scrolling-words-box">
+                        <ul>
+                        <li className='front-end-item' >React.JS</li>
+                        <li className='front-end-item' >JavaScript</li>
+                        <li className='front-end-item' >HTML</li>
+                        <li className='front-end-item' >CSS</li>
+                        <li className='front-end-item'>TypeScript</li>
+                        
+                        </ul>
+                    </div>
+                    </div>
+                    <span id='to-create-fun'> ] to create fun and user-friendly sites</span>
                 </div>
                 <div id='back-end' className="tech-lists">
                     <p id='tech-types-header'>BACK END</p>
