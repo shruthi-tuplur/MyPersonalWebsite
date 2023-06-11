@@ -12,7 +12,7 @@ import useElementOnScreen from './components/intersectionobserver';
 const Main = () => {
 
     const [boogie, setBoogie] = useState(false);
-    const [businessMode, setBusinessMode] = useState(false);
+    const [businessMode, setBusinessMode] = useState(true);
     const [containerRef, isVisible] = useElementOnScreen({
         root: null,
         rootMargin:'0px',

@@ -37,7 +37,7 @@ const HomepageMain = (props) => {
         <div id="resume-button-div-bus">
             <button id="resume-button-bus">Resume → </button>
         </div>
-        <HorizontalLine businessMode={businessMode} setBusinessMode={setBusinessMode}/>
+       
         <a id='projects-bus' ref={containerRef}>
             <Projects businessMode={businessMode} setBusinessMode={setBusinessMode} />
         </a>    
@@ -45,7 +45,7 @@ const HomepageMain = (props) => {
         <a id='technologies-bus'ref={containerRef}>
             <Technologies businessMode={businessMode} setBusinessMode={setBusinessMode} />
         </a>
-        <HorizontalLine businessMode={businessMode} setBusinessMode={setBusinessMode}/>
+        
         <a id='about-bus'ref={containerRef}>     
             <About businessMode={businessMode} setBusinessMode={setBusinessMode}/>
         </a>    

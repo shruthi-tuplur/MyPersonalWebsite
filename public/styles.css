@@ -327,6 +327,16 @@ background-color: transparent;
     margin-left: 150px;
 }
 
+#front-end-bus{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    width: 500px;
+    background-color: #360557;
+    color:rgb(210, 183, 229);
+    margin-left: 150px;
+}
+
 #about-me{
     
     height: 100vh;
@@ -400,6 +410,10 @@ background-color: transparent;
     margin-top: 0px;
 }
 
+#stranger-button-bus{
+    margin-top: 0px;
+}
+
 #snake-image{
     height: 330px;
     width: 500px;
@@ -431,6 +445,11 @@ background-color: transparent;
 
 #project-info-div{
     
+    height: 400px;
+    width: 800px;
+}
+
+#project-info-div-bus{
     height: 400px;
     width: 800px;
 }
@@ -495,11 +514,21 @@ background-color: transparent;
 #project-tech-used-strangers{
     margin-left: 30px;
     display: flex;
+    color:#c1b5ca;
+    justify-content: space-evenly;
+    width: 460px;
+    
+}
+#project-tech-used-strangers-bus{
+    margin-left: 40px;
+    display: flex;
     color:#360557;
     justify-content: space-evenly;
     width: 460px;
     
 }
+
+
 
 #project-button-div-strangers{
     display: flex;
@@ -579,6 +608,16 @@ background-color: transparent;
     width: 500px;
     background-color: #FEB620;
     color:#360557;
+    margin-left: 150px;
+}
+
+#ui-ux-bus{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    width: 500px;
+    background-color: #360557;
+    color: #d2b7e5;
     margin-left: 150px;
 }
 
@@ -845,24 +884,28 @@ svg {
 
 #project-div-bus{
     height: 100vh;
-    
+    margin-left: 75px;
     margin-bottom: 250px;
+    margin-top: 60px;
 }
 
 .div-header-bus{
     font-family: 'Space Grotesk', sans-serif;
     font-weight:700;
-    color: #7e5c9a;
+    color: white;
     font-size: 60px;
     margin-left: 140px;
-    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+    margin-top: 30px;
     padding-top: 20px;
     margin-bottom: 40px;
 }
 
 #projects-bus{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -878,40 +921,46 @@ svg {
 }
 
 .project-card-bus{
-    height: 800px;
-    width: 500px;
-    background-color:  #7e5c9a;
+    
+    height: 300px;
+    width: 90vw;
     margin-left: 40px;
     margin-right: 40px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    color: #d2b7e5;
 }
 
 .project-title-bus{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
-    color:#360557;
-    font-size:x-large;
-    text-align: center;
+    color:white;
+    font-size:60px;
+    text-align: left;
     margin-bottom: 0px;
     margin-top: 10px;
+    margin-left: 50px;
 }
 
 #project-blurb-div-bus{
-    width: 460px;
+    width: 700px;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .project-blurb-bus{
-    color:#1b132c;
-    text-align: center;
+    color:#d2b7e5;
+    text-align: left;
     font-family: 'Space Grotesk', sans-serif;
 }
 
 #project-tech-used-bus{
     display: flex;
-    justify-content: space-evenly;
-    width: 460px;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 60px;
+    margin-bottom: 10px;
 }
 
 .tech-used-item-bus{
@@ -920,51 +969,61 @@ svg {
     padding-right: 7px;
     padding-left: 7px;
     font-family: 'Space Grotesk', sans-serif;
-    border-radius: 5px;
+    font-weight: 500;
+   
 }
 
 #project-button-div-bus{
     display: flex;
     justify-content: space-evenly;
     width: 460px;
-    margin-top: 40px;
 }
 
 .project-button-bus{
-    margin-top: 10px;
-    background-color:#360557;
-    border: none;
-    border-radius: 5px;
+    background-color:#1b132c;
     height: 40px;
     width: 150px;
     color: #d2b7e5;
     font-family: 'Space Grotesk', sans-serif;
     font-size: large;
+    border-radius: 0px;
+    margin-top: 0px;
+    height: 40px;
+    width: 150px;
+    font-family: 'Helvetica Neue';
     margin-left: 20px;
+    border: solid 1px #d2b7e5;
+    box-shadow: inset 0 0 0 0 #d2b7e5;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 
-.project-button-bus:hover{
-    background: linear-gradient(270deg, rgb(233, 233, 233) 0%, #360557 100%);
-    color:#1b132c;
+.project-button-bus:hover,
+.project-button-bus.focus{
+   /* background: linear-gradient(270deg, rgb(176, 3, 251) 0%, rgb(3, 28, 246) 100%); */
+   box-shadow: inset 400px 0 0 0 #d2b7e5;
+   color: #360557;
+   cursor: url('./images/rocket-blast.png'), auto;
 }
+
 
 #project-button-div-strangers-bus{
     display: flex;
     justify-content: space-evenly;
-    width: 460px;
-    margin-top: 140px;
-    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+    padding-left: 5px;
 }
 
 #snake-image-bus{
-    height: auto;
+    height: 330px;
     width: 500px;
-    border-radius: 5px 5px 0px 0px;
 }
 
 #strangers-things-image-bus{
-    border-radius: 5px 5px 0px 0px;
-    height: 275px;
+    height: 336px;
     width: 500px;
 }
 
@@ -973,7 +1032,8 @@ svg {
     display: flex;
     flex-direction: column;
     
-    height: 80vh;
+    height: 1100px;
+    margin-bottom: 50px;
 }
 
 #technologies-header-bus{
@@ -985,27 +1045,35 @@ svg {
     margin-left: 150px;
     margin-top: 0px;
     margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #types-of-tech-div-bus{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin-left: 40px;
+    margin-bottom: 500px;
 }
 
 .tech-lists-bus{
     color:#d2b7e5;
     padding-left: 20px;
     padding-right: 60px;
+    background-color:#360557 ;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 15px;
 }
 
 #tech-types-header-bus{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
-    width: 150px;
     font-size: larger;
     color:#dcdadd;
+    width: 250px;
+    margin-top: 12px;
 }
 
 
@@ -1028,9 +1096,23 @@ svg {
     align-items: flex-end;
 }
 
+#back-end-bus{
+    width: 500px;
+    height: auto;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .back-end-header{
     text-align: right;
 }
+
+.back-end-header-bus{
+    text-align: right;
+}
+
 #about-me-bus{
     height: 100vh;
 }

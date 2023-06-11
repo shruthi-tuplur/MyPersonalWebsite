@@ -11,20 +11,20 @@ const Technologies = (props) => {
             <div id='types-of-tech-div-bus'>
                 <div id='front-end-bus' className="tech-lists-bus">
                     <p id='tech-types-header-bus'>FRONT END</p>
-                        <p className="tech-type-item-bus">React.js</p>
-                        <p  className="tech-type-item-bus" >JavaScript</p>
-                        <p className="tech-type-item-bus">HTML</p>
-                        <p className="tech-type-item-bus">CSS</p>
-                        <p className="tech-type-item-bus">TypeScript</p>
+                        <p>React.js</p>
+                        <p>JavaScript</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>TypeScript</p>
                 </div>
                 <div id='back-end-bus' className="tech-lists-bus">
-                    <p id='tech-types-header-bus'>BACK END</p>
-                        <p className="tech-type-item-bus">Node.js</p>
-                        <p className="tech-type-item-bus">PostgreSQL</p>
-                        <p className="tech-type-item-bus">Express.js</p>
-                        <p className="tech-type-item-bus">AJAX</p>
-                        <p className="tech-type-item-bus">Restful APIs</p>
-                        <p className="tech-type-item-bus">Database Architecture and Schemas</p>
+                    <p id='tech-types-header-bus' className="back-end-header-bus">BACK END</p>
+                        <p>Node.js</p>
+                        <p>PostgreSQL</p>
+                        <p>Express.js</p>
+                        <p>AJAX</p>
+                        <p>Restful APIs</p>
+                        <p>Database Architecture and Schemas</p>
                 </div>
                 <div id='ui-ux-bus' className="tech-lists-bus">
                     <p id='tech-types-header-bus'>UI/UX</p>
@@ -34,7 +34,8 @@ const Technologies = (props) => {
 
             </div>
        </div>
-        )
+ )
+        
     } else{
  return (
     <div id='technologies-div'>
