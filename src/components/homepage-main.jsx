@@ -12,7 +12,10 @@ const HomepageMain = (props) => {
 
     const {boogie, setBoogie, businessMode, setBusinessMode, containerRef} = props; 
 
-   
+    const [isIntersecting, setIsIntersecting] = useState(false);
+
+
+
 
     if(businessMode){
         return(
@@ -76,17 +79,20 @@ return (
             <button id="resume-button">check out my resume → </button>
         </div>
         
-        <a id='projects'>
-            <Projects businessMode={businessMode} setBusinessMode={setBusinessMode} />
-        </a>    
+            
+                <a id='projects'>
+                    <Projects businessMode={businessMode} setBusinessMode={setBusinessMode} />
+                </a>  
+           
+                <a id='technologies'>
+                    <Technologies businessMode={businessMode} setBusinessMode={setBusinessMode} />
+                </a>
+            
         
-        <a id='technologies'>
-            <Technologies businessMode={businessMode} setBusinessMode={setBusinessMode} />
-        </a>
+            <a id='about'>     
+                <About businessMode={businessMode} setBusinessMode={setBusinessMode}/>
+            </a>  
         
-        <a id='about'>     
-            <About businessMode={businessMode} setBusinessMode={setBusinessMode}/>
-        </a>    
         
     </div>
     
