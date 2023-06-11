@@ -332,8 +332,8 @@ background-color: transparent;
     flex-direction: column;
     margin-left: 90px;
     width: 500px;
-    background-color: #360557;
-    color:rgb(210, 183, 229);
+    background-color:  #d2b7e5;
+    color: #360557;
     margin-left: 150px;
 }
 
@@ -346,6 +346,11 @@ background-color: transparent;
 }
 
 #about-me-left{
+    width: 400px;
+    margin-left: 60px;
+}
+
+#about-me-left-bus{
     width: 400px;
     margin-left: 60px;
 }
@@ -522,7 +527,7 @@ background-color: transparent;
 #project-tech-used-strangers-bus{
     margin-left: 40px;
     display: flex;
-    color:#360557;
+    color:white;
     justify-content: space-evenly;
     width: 460px;
     
@@ -596,6 +601,10 @@ background-color: transparent;
     margin-left: 30px;
 }
 
+#about-me-header-bus{
+    margin-left: 30px;
+}
+
 #front-end-item{
     display: flex;
     justify-content: center;
@@ -616,8 +625,8 @@ background-color: transparent;
     flex-direction: column;
     margin-left: 90px;
     width: 500px;
-    background-color: #360557;
-    color: #d2b7e5;
+    background-color:  #d2b7e5;
+    color: #360557;
     margin-left: 150px;
 }
 
@@ -636,7 +645,8 @@ background-color: transparent;
 #email{
     margin-top: 50px;
     margin-left: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
 }
 
 #icons-div{
@@ -964,8 +974,7 @@ svg {
 }
 
 .tech-used-item-bus{
-    color:#1b132c;
-    background-color:#d2b7e5;
+    color:white;
     padding-right: 7px;
     padding-left: 7px;
     font-family: 'Space Grotesk', sans-serif;
@@ -1058,10 +1067,10 @@ svg {
 }
 
 .tech-lists-bus{
-    color:#d2b7e5;
+    color:#360557 ;
     padding-left: 20px;
     padding-right: 60px;
-    background-color:#360557 ;
+    background-color:#d2b7e5;
     padding-left: 20px;
     padding-right: 60px;
     padding-bottom: 15px;
@@ -1071,7 +1080,8 @@ svg {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
     font-size: larger;
-    color:#dcdadd;
+    color:#360557;
+    margin-bottom: 0px;
     width: 250px;
     margin-top: 12px;
 }
@@ -1115,20 +1125,29 @@ svg {
 
 #about-me-bus{
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #about-me-section-bus{
     margin-left: 150px;
     margin-right: 150px;
+    font-family: 'Space Grotesk', sans-serif;
+    width: 700px;
+    margin-top: 110px;
+    font-size: 18px;
 }
 
 #about-me-first-line-bus{
-    background-color: #d2b7e5;
-    color:#360557;
+   
+    color:#d2b7e5;
     padding-left: 5px;
-    width: 650px;
     font-weight: 700;
     font-family: 'Space Grotesk', sans-serif;
+    font-size: 25px;
+    width: 350px;
+    margin-left: 30px;
 }
 
 .about-me-blurb-sec-bus{
@@ -1161,6 +1180,7 @@ svg {
 #email-bus{
     margin-top: 50px;
     margin-left: 30px;
+    font-family: 'Space Grotesk'
 }
 
 #icons-div-bus{

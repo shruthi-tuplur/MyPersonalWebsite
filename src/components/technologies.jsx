@@ -39,7 +39,7 @@ const Technologies = (props) => {
     } else{
  return (
     <div id='technologies-div'>
-            <h1 className='div-header' id='technologies-header'>Technologies</h1>
+            <h1 className='div-header' id='technologies-header'>technologies.</h1>
             <p id='technologies-intro'> I enjoy working with a range of technologies that help me create aesthetically pleasing web applications with intuitive UI. </p>
             <div id='types-of-tech-div'>
                 <div id='front-end' className="tech-lists">

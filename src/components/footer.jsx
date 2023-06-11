@@ -9,7 +9,7 @@ const Footer = (props) => {
             <div id='footer-div-bus'>
                 <div id='contact-div-bus'>
                     <div>
-                        <p id="email-bus">email: shruthituplur@gmail.com</p> 
+                        <p id="email-bus">Email: shruthituplur@gmail.com</p> 
                         
                     </div>
                     <div id="icons-div-bus">
