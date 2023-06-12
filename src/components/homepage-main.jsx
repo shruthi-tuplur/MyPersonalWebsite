@@ -10,7 +10,7 @@ import About from './about';
 
 const HomepageMain = (props) => {
 
-    const {boogie, setBoogie, businessMode, setBusinessMode, containerRef} = props; 
+    const {boogie, setBoogie, businessMode, setBusinessMode} = props; 
 
     const [isIntersecting, setIsIntersecting] = useState(false);
 
@@ -35,18 +35,18 @@ const HomepageMain = (props) => {
             </div>
         </div>
         <div id="resume-button-div-bus">
-            <button id="resume-button-bus">Resume → </button>
+            <a href='https://docs.google.com/document/d/1CNe_pOQM7iT9oiImJgm3zZO0CVWQrCGl__wrx1kPBWQ/edit?usp=sharing' ><button id="resume-button-bus">Resume → </button> </a> 
         </div>
        
-        <a id='projects-bus' ref={containerRef}>
+        <a id='projects-bus' >
             <Projects businessMode={businessMode} setBusinessMode={setBusinessMode} />
         </a>    
         
-        <a id='technologies-bus'ref={containerRef}>
+        <a id='technologies-bus'>
             <Technologies businessMode={businessMode} setBusinessMode={setBusinessMode} />
         </a>
         
-        <a id='about-bus'ref={containerRef}>     
+        <a id='about-bus'>     
             <About businessMode={businessMode} setBusinessMode={setBusinessMode}/>
         </a>    
         
@@ -76,7 +76,7 @@ return (
             </div>
         </div>
         <div id="resume-button-div">
-            <button id="resume-button">check out my resume → </button>
+        <a href='https://docs.google.com/document/d/1CNe_pOQM7iT9oiImJgm3zZO0CVWQrCGl__wrx1kPBWQ/edit?usp=sharing' target="_blank"><button id="resume-button">check out my resume → </button></a>
         </div>
         
             

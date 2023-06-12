@@ -74,8 +74,8 @@ const Projects = (props) => {
                     <p className="tech-used-item">CSS</p>
                 </div>
                 <div id='project-button-div'>
-                   <form><button className="project-button" formAction="https://github.com/shruthi-tuplur/snake">code  → </button></form> 
-                   <form><button className="project-button" formAction="https://legendary-entremet-10b36b.netlify.app/">cource  → </button></form> 
+                   <form><button className="project-button" formAction="https://github.com/shruthi-tuplur/snake" target="_blank">code  → </button></form> 
+                   <form><button className="project-button" formAction="https://legendary-entremet-10b36b.netlify.app/" target="_blank">source  → </button></form> 
                 </div>
                 </div>
             </div>
@@ -96,8 +96,8 @@ const Projects = (props) => {
                 </div>
 
                 <div id='project-button-div-strangers'>
-                   <form><button className="project-button" id='stranger-button' formAction="https://github.com/shruthi-tuplur/Stranger-s_Things">code  → </button></form> 
-                   <form><button className="project-button" id='stranger-button' formAction="https://admirable-cheesecake-aa69e4.netlify.app/">source  → </button></form> 
+                   <form><button className="project-button" id='stranger-button' formAction="https://github.com/shruthi-tuplur/Stranger-s_Things" target="_blank">code  → </button></form> 
+                   <form><button className="project-button" id='stranger-button' formAction="https://admirable-cheesecake-aa69e4.netlify.app/" target="_blank">source  → </button></form> 
                 </div>
                 </div>
             </div>

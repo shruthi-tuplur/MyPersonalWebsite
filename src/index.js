@@ -5,7 +5,7 @@ import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 import Header from './components/header';
 import HomepageMain from './components/homepage-main';
 import Footer from './components/footer';
-import useElementOnScreen from './components/intersectionobserver';
+
 
 
 
@@ -13,11 +13,7 @@ const Main = () => {
 
     const [boogie, setBoogie] = useState(false);
     const [businessMode, setBusinessMode] = useState(false);
-    const [containerRef, isVisible] = useElementOnScreen({
-        root: null,
-        rootMargin:'0px',
-        threshold: 1.0
-    })
+    
 
     return (
         <BrowserRouter>
@@ -31,7 +27,7 @@ const Main = () => {
                 }} 
                 />
                 <Route exact path='/home'>
-                    <HomepageMain ref={containerRef} boogie = {boogie} setBoogie = {setBoogie} businessMode={businessMode} setBusinessMode={setBusinessMode}/>
+                    <HomepageMain boogie = {boogie} setBoogie = {setBoogie} businessMode={businessMode} setBusinessMode={setBusinessMode}/>
                 </Route>
                 
                 
