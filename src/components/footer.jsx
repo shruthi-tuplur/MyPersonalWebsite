@@ -17,7 +17,7 @@ const Footer = (props) => {
                             <a href="https://github.com/shruthi-tuplur"><img id="github-icon-bus" className="icon" src='/images/github-logo-bus.png' /></a>
                         </div>
                         <div id='linkedin-div-bus'>
-                            <a href="https://www.linkedin.com/in/shruthi-tuplur-2ab46a170"><img id="linkedin-icon-bus" className="icon" src='/images/linkedin-logo-bus.png' /></a>
+                            <a href="https://www.linkedin.com/in/shruthi-tuplur"><img id="linkedin-icon-bus" className="icon" src='/images/linkedin-logo-bus.png' /></a>
                         </div>    
                         
                     </div>
@@ -38,7 +38,7 @@ const Footer = (props) => {
                         <a href="https://github.com/shruthi-tuplur"><img id="github-icon" className="icon" src='/images/github-icon.png' /></a>
                     </div>
                     <div id='linkedin-div'>
-                        <a href="https://www.linkedin.com/in/shruthi-tuplur-2ab46a170"><img id="linkedin-icon" className="icon" src='/images/linkedin-icon.png' /></a>
+                        <a href="https://www.linkedin.com/in/shruthi-tuplur"><img id="linkedin-icon" className="icon" src='/images/linkedin-icon.png' /></a>
                     </div>    
                     
                 </div>
