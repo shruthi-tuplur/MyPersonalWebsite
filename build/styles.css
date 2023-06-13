@@ -5,7 +5,7 @@ body {
     background-color: #360557;
     height: 100vh;
     margin: 0px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Neue';
     color: #d2b7e5;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ body {
 }
 
 .header-item {
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Neue';
     color: #360557;
     font-size: larger;
     text-decoration: none;
@@ -149,7 +149,7 @@ background-color: transparent;
 }
 
 #site-main-intro-header{
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 700;
     color: #FEB620;
     font-size: 70px;
@@ -212,7 +212,7 @@ background-color: transparent;
     margin-left: 150px;
     height: 50px;
     border: none;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Neue';
     font-size: 20px;
     /* background: linear-gradient(270deg, rgb(3, 28, 246) 0%, rgb(176, 3, 251) 100%); */
     background-color: #360557;
@@ -238,7 +238,7 @@ background-color: transparent;
 
 
 .div-header{
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight:700;
     color:  #FEB620;
     font-size: 60px;
@@ -305,7 +305,7 @@ background-color: transparent;
 }
 
 #tech-types-header{
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Neue';
     font-weight: 700;
     
     width: 250px;
@@ -359,7 +359,7 @@ background-color: transparent;
 #about-me-section {
     margin-left: 50px;
     margin-right: 50px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     width: 700px;
     margin-top: 110px;
     font-size: 18px;
@@ -367,7 +367,7 @@ background-color: transparent;
 }
 
 #about-me-blurb{
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Neue';
     color:#FEB620;
 }
 #about-me-first-line{
@@ -426,7 +426,7 @@ background-color: transparent;
 }
 
 .project-title{
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Neue';
     font-weight: 700;
     color:orange;
     font-size:60px;
@@ -486,7 +486,7 @@ background-color: transparent;
     
     height: 40px;
     width: 150px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Neue';
     font-size: large;
     margin-left: 20px;
     background-color: #360557;
@@ -645,7 +645,7 @@ background-color: transparent;
 #email{
     margin-top: 50px;
     margin-left: 30px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: bold;
 }
 
@@ -701,7 +701,7 @@ background-color: transparent;
     margin-top: 20px;
     margin-left:5px;
     color:#FEB620;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Neue';
     cursor: pointer;
     background: transparent;
     border: none;
@@ -999,7 +999,7 @@ svg {
     margin-top: 0px;
     height: 40px;
     width: 150px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica Neue';
     margin-left: 20px;
     border: solid 1px #d2b7e5;
     box-shadow: inset 0 0 0 0 #d2b7e5;
