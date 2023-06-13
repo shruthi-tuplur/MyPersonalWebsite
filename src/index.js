@@ -1,7 +1,7 @@
 import React, {useLayoutEffect, useState, useRef, useEffect} from 'react';
 import ReactDom, {render} from 'react-dom'
 
-import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
+
 import Header from './components/header';
 import HomepageMain from './components/homepage-main';
 import Footer from './components/footer';

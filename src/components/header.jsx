@@ -12,9 +12,9 @@ const Header = (props) => {
 
     if(businessMode){
         return (<div id='header-main-div-bus'>
-            <Link to='/home'>
+            
                 <button id='homepage-button-bus'>shruthi tuplur</button>
-            </Link>
+            
             <div id='nav-bar'>
                 <a className = 'header-item-bus' id='projects-nav-bus'  href='#projects-bus'>Projects</a>
                 <a className = 'header-item-bus' id='technologies-nav-bus' href='#technologies-bus'>Technologies</a>
@@ -26,9 +26,9 @@ const Header = (props) => {
 
     return (
         <div id='header-main-div'>
-            <Link to='/home'>
+            
                 <button id='homepage-button'>shruthi tuplur</button>
-            </Link>
+            
             <div id='nav-bar'>
                 <a className = 'header-item' id='projects-nav'  href='#projects'>Projects</a>
                 <a className = 'header-item' id='technologies-nav' href='#technologies'>Technologies</a>
