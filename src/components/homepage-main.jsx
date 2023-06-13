@@ -35,7 +35,7 @@ const HomepageMain = (props) => {
             </div>
         </div>
         <div id="resume-button-div-bus">
-            <a href='https://docs.google.com/document/d/1CNe_pOQM7iT9oiImJgm3zZO0CVWQrCGl__wrx1kPBWQ/edit?usp=sharing' ><button id="resume-button-bus">Resume → </button> </a> 
+            <a href='https://docs.google.com/document/d/1CNe_pOQM7iT9oiImJgm3zZO0CVWQrCGl__wrx1kPBWQ/edit?usp=sharing' target="_blank" ><button id="resume-button-bus">Resume → </button> </a> 
         </div>
        
         <a id='projects-bus' >
