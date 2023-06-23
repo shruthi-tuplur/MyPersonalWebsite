@@ -33,6 +33,7 @@ const HomepageMain = (props) => {
             <div id="site-main-intro-header-div-bus">
                 <h1 id='site-main-intro-header-bus'>Welcome to my personal portfolio.</h1>
             </div>
+            <img id='bus-image' src="https://media3.giphy.com/media/ksE9feSa2b4V2GYwY4/giphy.gif?cid=ecf05e47bzy1ucnudjb2ma7lbbyt2cud1flresxstij794h7&ep=v1_stickers_search&rid=giphy.gif&ct=ts" />
         </div>
         <div id="resume-button-div-bus">
             <a href='https://docs.google.com/document/d/1CNe_pOQM7iT9oiImJgm3zZO0CVWQrCGl__wrx1kPBWQ/edit?usp=sharing' target="_blank" ><button id="resume-button-bus">Resume → </button> </a> 

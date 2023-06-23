@@ -29,24 +29,25 @@ const Projects = (props) => {
                         </div>
                     </div>
                     <div className="project-card-bus">
-                    <img id="strangers-things-image-bus" src="/images/strangers-things.png"/>
+                    <img id="strangers-things-image-bus" src="/images/fitness-tracker-image.png"/>
                     <div id='project-info-div-bus'>
-                        <p className='project-title-bus'>e-commerce craigslist clone.</p>
+                        <p className='project-title-bus'>fitness trackr.</p>
                         <div id='project-blurb-div-bus'>
-                            <p className="project-blurb-bus">This project utilizes HTML, CSS, JavaScript, ReactJS, and RESTful APIs. This site boasts a simple, clean UI, and it allows users to register, login, 
-                            post listings, browse listings created by other users, and view their own profile. </p>
+                            <p className="project-blurb-bus">A web application that allows users to share fitness routines and updates on their fitness journeys, as well as view others' routines. </p>
                         </div>
                         <div id='project-tech-used-strangers-bus'>
-                            <p className="tech-used-item-bus"> HTML</p>
-                            <p className="tech-used-item-bus">CSS</p>
+                            <p className="tech-used-item-bus"> PostgreSQL</p>
+                            <p className="tech-used-item-bus">Express.JS</p>
                             <p className="tech-used-item-bus">JavaScript</p>
                             <p className="tech-used-item-bus">ReactJS</p>
-                            <p className="tech-used-item-bus">RESTful APIs</p>
+                            <p className="tech-used-item-bus">HTML</p>
+                            <p className="tech-used-item-bus">CSS</p>
                         </div>
         
                         <div id='project-button-div-strangers-bus'>
-                           <a href="https://github.com/shruthi-tuplur/Stranger-s_Things" target="_blank"><button className="project-button-bus" id='stranger-button-bus' >Code  → </button></a> 
-                           <a href="https://admirable-cheesecake-aa69e4.netlify.app/" target="_blank"><button className="project-button-bus" id='stranger-button-bus'>Source  → </button></a> 
+                           <a href="https://github.com/shruthi-tuplur/Fitness-Tracker-Frontend" target="_blank"><button className="project-button-bus" id='stranger-button-bus' >Frontend Code</button></a> 
+                           <a href="https://github.com/Kieren27/FitnessTrackerBackend" target="_blank"><button className="project-button-bus" id='stranger-button-bus' >Backend Code</button></a> 
+                           <a href="https://luxury-dasik-ca4091.netlify.app/" target="_blank"><button className="project-button-bus" id='stranger-button-bus'>Source</button></a> 
                         </div>
                         </div>
                     </div>
@@ -80,24 +81,25 @@ const Projects = (props) => {
                 </div>
             </div>
             <div className="project-card">
-            <img id="strangers-things-image" src="/images/strangers-things.png"/>
+            <img id="fitness-trackr-image" src="/images/fitness-tracker-image.png"/>
             <div id='project-info-div'>
-                <p className='project-title'>e-commerce craigslist clone.</p>
+                <p className='project-title'>fitness trackr.</p>
                 <div id='project-blurb-div'>
-                    <p className="project-blurb">This project utilizes HTML, CSS, JavaScript, ReactJS, and RESTful APIs. This site boasts a simple, clean UI, and it allows users to register, login, 
-                    post listings, browse listings created by other users, and view their own profile. </p>
+                    <p className="project-blurb">A web application that allows users to share fitness routines and updates on their fitness journeys, as well as view others' routines. </p>
                 </div>
                 <div id='project-tech-used-strangers'>
-                    <p className="tech-used-item"> HTML</p>
-                    <p className="tech-used-item">CSS</p>
+                    <p className="tech-used-item"> PostgreSQL</p>
+                    <p className="tech-used-item">Express.JS</p>
                     <p className="tech-used-item">JavaScript</p>
                     <p className="tech-used-item">ReactJS</p>
-                    <p className="tech-used-item">RESTful APIs</p>
+                    <p className="tech-used-item">HTML</p>
+                    <p className="tech-used-item">CSS</p>
                 </div>
 
                 <div id='project-button-div-strangers'>
-                   <form><button className="project-button" id='stranger-button' formAction="https://github.com/shruthi-tuplur/Stranger-s_Things" target="_blank">code  → </button></form> 
-                   <form><button className="project-button" id='stranger-button' formAction="https://admirable-cheesecake-aa69e4.netlify.app/" target="_blank">source  → </button></form> 
+                   <form><button className="project-button" id='stranger-button' formAction="https://github.com/shruthi-tuplur/Fitness-Tracker-Frontend" target="_blank"> frontend code  → </button></form> 
+                   <form><button className="project-button" id='stranger-button' formAction="https://github.com/Kieren27/FitnessTrackerBackend" target="_blank"> backend code  → </button></form> 
+                   <form><button className="project-button" id='stranger-button' formAction="https://luxury-dasik-ca4091.netlify.app/" target="_blank">source  → </button></form> 
                 </div>
                 </div>
             </div>

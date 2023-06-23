@@ -332,7 +332,7 @@ background-color: transparent;
     flex-direction: column;
     margin-left: 90px;
     width: 500px;
-    background-color:  #d2b7e5;
+    background-color:  #d199f8;
     color: #360557;
     margin-left: 150px;
 }
@@ -510,14 +510,14 @@ background-color: transparent;
     cursor: url('./images/rocket-click.png'), auto;
 }
 
-#strangers-things-image{
-    height: 336px;
+#fitness-trackr-image{
+    height: auto;
     width: 500px;
     
 }
 
 #project-tech-used-strangers{
-    margin-left: 30px;
+    margin-left: 45px;
     display: flex;
     color:#c1b5ca;
     justify-content: space-evenly;
@@ -525,7 +525,7 @@ background-color: transparent;
     
 }
 #project-tech-used-strangers-bus{
-    margin-left: 40px;
+    margin-left: 50px;
     display: flex;
     color:white;
     justify-content: space-evenly;
@@ -540,6 +540,8 @@ background-color: transparent;
     justify-content: space-evenly;
     width: 420px;
     padding-left: 5px;
+    margin-left: 70px;
+    margin-top: 30px;
     
 }
 
@@ -615,7 +617,7 @@ background-color: transparent;
     flex-direction: column;
     margin-left: 90px;
     width: 500px;
-    background-color: #FEB620;
+    background-color: #fac75e;
     color:#360557;
     margin-left: 150px;
 }
@@ -625,8 +627,8 @@ background-color: transparent;
     flex-direction: column;
     margin-left: 90px;
     width: 500px;
-    background-color:  #d2b7e5;
-    color: #360557;
+    background-color:  #7e49a4;
+    color: #26053c;
     margin-left: 150px;
 }
 
@@ -826,7 +828,7 @@ svg {
 
 #site-main-intro-header-div-bus{
     width: 40vw;
-    margin-right: 170px;
+    margin-right: 130px;
 }
 
 #site-main-intro-header-bus{
@@ -991,7 +993,7 @@ svg {
 .project-button-bus{
     background-color:#1b132c;
     height: 40px;
-    width: 150px;
+    width: 250px;
     color: #d2b7e5;
     font-family: 'Space Grotesk', sans-serif;
     font-size: large;
@@ -1024,6 +1026,7 @@ svg {
     justify-content: space-evenly;
     width: 420px;
     padding-left: 5px;
+    margin-left: 70px;
 }
 
 #snake-image-bus{
@@ -1104,6 +1107,7 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    background-color: #f49139;
 }
 
 #back-end-bus{
@@ -1113,6 +1117,7 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    background-color: #965fbd;
 }
 
 .back-end-header{
@@ -1213,3 +1218,6 @@ svg {
     animation-iteration-count: infinite;
 }
 
+#bus-image{
+    margin-top: 70px;
+}
