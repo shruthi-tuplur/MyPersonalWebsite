@@ -87,27 +87,13 @@ background-color: transparent;
 }
 .header-item:hover {
    
-    font-family: 'Bungee', cursive;
-    font-size: 17px;
-    padding-top: 15px;
+    border-bottom: solid 3px #f49139;
     cursor: url('./images/rocket-blast.png'), auto;
-    
+    padding-bottom: 5px;
+    height: 20px;
 }
 
-#technologies-nav:hover{
-    padding-right: 0px;
-    font-size: 15px;
-}
 
-#projects-nav:hover{
-    padding-left: 0px;
-    font-size: 15px;
-    
-}
-
-#about-nav:hover{
-    font-size:14px;
-}
 
 .header-item:active{
     cursor: url('./images/rocket-click.png'), auto;
@@ -381,9 +367,8 @@ background-color: transparent;
 }
 
 #project-div{
-    height: 100vh;
     margin-left: 75px;
-    margin-bottom: 250px;
+    margin-bottom: 50px;
     margin-top: 60px;
     
 }
@@ -895,9 +880,8 @@ svg {
 }
 
 #project-div-bus{
-    height: 100vh;
     margin-left: 75px;
-    margin-bottom: 250px;
+    margin-bottom: 50px;
     margin-top: 60px;
 }
 
@@ -1015,7 +999,6 @@ svg {
    /* background: linear-gradient(270deg, rgb(176, 3, 251) 0%, rgb(3, 28, 246) 100%); */
    box-shadow: inset 400px 0 0 0 #d2b7e5;
    color: #360557;
-   cursor: url('./images/rocket-blast.png'), auto;
 }
 
 
@@ -1166,7 +1149,6 @@ svg {
     margin-top: 0px;
     background-color:#1b132c;
     display: flex;
-    justify-content: center;
     padding-bottom: 50px;
 }
 
@@ -1177,7 +1159,7 @@ svg {
     color:#d2b7e5;
     border-top: 1px solid #393442;
     padding-top:30px;
-    width: 80vw;
+    width: 100vw;
     
     
 }
@@ -1220,4 +1202,79 @@ svg {
 
 #bus-image{
     margin-top: 70px;
+}
+
+.demonstration-button{
+    margin-top: 0px;
+    
+    height: 40px;
+    width: 250px;
+    font-family: 'Helvetica';
+    font-size: large;
+    margin-left: 20px;
+    background-color: #360557;
+    color:#FEB620;
+    border: solid 1px #FEB620;
+    box-shadow: inset 0 0 0 0 #FEB620;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.demonstration-button:hover,
+.demonstration-button.focus{
+   /* background: linear-gradient(270deg, rgb(176, 3, 251) 0%, rgb(3, 28, 246) 100%); */
+   box-shadow: inset 400px 0 0 0 #FEB620;
+   color: #360557;
+   cursor: url('./images/rocket-blast.png'), auto;
+}
+
+.demonstration-button:active{
+    cursor: url('./images/rocket-click.png'), auto;
+}
+
+#project-button-div-guitarget{
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+    padding-left: 5px;
+    margin-left: 120px;
+    margin-top: 30px;
+    
+}
+
+.demonstration-button-bus{
+    background-color:#1b132c;
+    height: 40px;
+    width: 250px;
+    color: #d2b7e5;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+    border-radius: 0px;
+    margin-top: 0px;
+    height: 40px;
+    margin-left: 20px;
+    border: solid 1px #d2b7e5;
+    box-shadow: inset 0 0 0 0 #d2b7e5;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.demonstration-button-bus:hover,
+.demonstration-button-bus.focus{
+   /* background: linear-gradient(270deg, rgb(176, 3, 251) 0%, rgb(3, 28, 246) 100%); */
+   box-shadow: inset 400px 0 0 0 #d2b7e5;
+   color: #360557;
+
+}
+
+#project-button-div-guitarget-bus{
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+    padding-left: 5px;
+    margin-left: 120px;
 }
